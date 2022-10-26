@@ -34,3 +34,7 @@
 - the circular queue data structure supports two main operations:
   - enqueue, wich adds an element to the rear/tail of the collection
   - dequeue, wich removes an element from the front/head of the collection
+- usage:
+  - clock
+  - streaming
+  - traffic lights
