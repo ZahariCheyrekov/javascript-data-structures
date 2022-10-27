@@ -194,49 +194,51 @@ class LinkedList {
     }
 }
 
-const list = new LinkedList();
-console.log('List is empty?', list.isEmpty());
-console.log('List size:', list.getSize());
+module.exports = LinkedList;
 
-list.prepend(10);
-list.prepend(20);
-list.prepend(30);
+// const list = new LinkedList();
+// console.log('List is empty?', list.isEmpty());
+// console.log('List size:', list.getSize());
 
-list.append(5);
-list.append(2);
-list.append(1);
+// list.prepend(10);
+// list.prepend(20);
+// list.prepend(30);
 
-list.print();
+// list.append(5);
+// list.append(2);
+// list.append(1);
 
-list.insert(10, 0);
-list.print();
+// list.print();
 
-list.insert(20, 0);
-list.print();
+// list.insert(10, 0);
+// list.print();
 
-list.insert(30, 1);
-list.print();
+// list.insert(20, 0);
+// list.print();
 
-list.insert(40, 2);
-list.print();
-console.log(list.getSize());
+// list.insert(30, 1);
+// list.print();
 
-console.log(list.removeFrom(9));
-console.log(list.removeFrom(8));
-console.log(list.removeFrom(7));
-console.log(list.removeFrom(0));
-list.print();
+// list.insert(40, 2);
+// list.print();
+// console.log(list.getSize());
 
-console.log(list.removeValue(30));
-console.log(list.removeValue(30));
-list.print();
+// console.log(list.removeFrom(9));
+// console.log(list.removeFrom(8));
+// console.log(list.removeFrom(7));
+// console.log(list.removeFrom(0));
+// list.print();
 
-console.log(list.search(40));
-console.log(list.search(20));
+// console.log(list.removeValue(30));
+// console.log(list.removeValue(30));
+// list.print();
 
-list.reverse();
-list.print();
+// console.log(list.search(40));
+// console.log(list.search(20));
 
-console.log(list.removeFromFront());
-console.log(list.removeFromEnd());
-list.print();
+// list.reverse();
+// list.print();
+
+// console.log(list.removeFromFront());
+// console.log(list.removeFromEnd());
+// list.print();
