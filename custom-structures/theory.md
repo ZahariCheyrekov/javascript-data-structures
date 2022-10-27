@@ -52,3 +52,13 @@
 - usage:
   - all applications of both stacks and queues are applications of linked list
   - image viewer
+
+# Hash Table
+
+- a hash table, also known as hash map, is a data structure that is used to store key-value pairs
+- given a key, you can associate a value with that key for very fast lookup
+- JavaScript Object is a special implementation of the hash table data strucutre. However, Object class adds its own keys. Keys that you input may conflict and overwrite the inherited default properties
+- Maps wich were introduced in 2015 allow you to store key-value pairs
+- usage:
+  - database indexing
+  - caches
