@@ -122,6 +122,25 @@ class LinkedList {
         }
     }
 
+    search(value) {
+        if (this.isEmpty()) {
+            return -1;
+        }
+
+        let i = 0;
+        let current = this.head;
+
+        while (current) {
+            if (current.value === value) {
+                return i;
+            }
+            current = current.next;
+            i++;
+        }
+
+        return -1;
+    }
+
     print() {
         if (list.isEmpty()) {
             console.log('List is empty');
@@ -175,3 +194,6 @@ list.print();
 console.log(list.removeValue(30));
 console.log(list.removeValue(30));
 list.print();
+
+console.log(list.search(40));
+console.log(list.search(20));
