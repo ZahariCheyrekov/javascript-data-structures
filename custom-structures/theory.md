@@ -77,3 +77,8 @@
   - DOM
   - chat bots
   - abstract syntax trees
+
+# Binary Tree
+
+- tree data structure in wich each node has at most two children
+- they are referred to as left child and right child
