@@ -101,3 +101,7 @@
   - preorder
   - inorder
   - postorder
+
+# Breadth First Search (BFS)
+
+- explore all nodes at the present depth prior on the nodes at the next depth
