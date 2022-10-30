@@ -62,3 +62,18 @@
 - usage:
   - database indexing
   - caches
+
+# Tree
+
+- a tree is a hierarchial data structure that consists of nodes connected by edges
+- a tree is a non-linear data structure, compared to arrays, linked lists, stacks and queues wich are linear data structures
+- in linear data structures, the time required to search is proportional to the size of the data set
+- trees however, owing the nonlinear nature allow quicker and easier access to the data
+- a tree will not contain any loops or cycles
+- usage:
+  - file systems for directory structure
+  - a family tree
+  - an organization tree
+  - DOM
+  - chat bots
+  - abstract syntax trees
