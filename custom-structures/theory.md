@@ -105,3 +105,22 @@
 # Breadth First Search (BFS)
 
 - explore all nodes at the present depth prior on the nodes at the next depth
+
+# Graph
+
+- a graph is nonlinear data structure that consists of a finit number of vertices (also called nodes) connected by edges
+- trees are a specific type of graph data structures
+- usage:
+  - google maps
+  - social media sites
+
+# Directed Graph
+
+- a graph in wich the edges have a direction
+- edge are usually represented by arrows pointing in the direction the graph can be traversed
+
+# Undirected Graph
+
+- a graph in wich the edges are bidirectional
+- the graph can be traversed in either direction
+- the absense of an arrow tells us the graph is undirected
