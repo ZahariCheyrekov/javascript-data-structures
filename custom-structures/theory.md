@@ -124,3 +124,12 @@
 - a graph in wich the edges are bidirectional
 - the graph can be traversed in either direction
 - the absense of an arrow tells us the graph is undirected
+
+# Adjacency Matrix vs Adjacency List
+
+- with an adjacency list, we only need to store the values for the edges that exist
+- with adjacency matrix, you need to store values of wheter an edge existts or not
+- adjacency list is way more efficient storage wis
+- with adjacency list, inserting and finding adjacent nodes is constant time complexity whereas with adjacency matrix, it is linear time complexity
+- an adjacency list allows you to store additional values with an edge such as weight of the edge
+- with adjacency matrix, such information would have to be stored externaly
