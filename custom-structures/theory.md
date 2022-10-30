@@ -82,3 +82,13 @@
 
 - tree data structure in wich each node has at most two children
 - they are referred to as left child and right child
+
+# Binary Search Tree
+
+- the value of each left node must be smaller than the parent node
+- the value of each right node must be greater than the parent node
+- each node has at most two children
+- usage:
+  - searching
+  - sorting
+  - to implement abstract data types such as lookup tables and priority queues
