@@ -92,3 +92,12 @@
   - searching
   - sorting
   - to implement abstract data types such as lookup tables and priority queues
+
+# Depth First Search (DFS)
+
+- the dfs algorithm strts at the root node and explores as far as possible along eaach branch before backtracking
+- visit the root node, visit all the nodes in the left subtree and visit all the nodes in the right subtree
+- depending on the order in wich we do this, there can be three types of DFS traversals:
+  - preorder
+  - inorder
+  - postorder
